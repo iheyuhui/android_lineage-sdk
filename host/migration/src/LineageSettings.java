@@ -80,8 +80,9 @@ public final class LineageSettings {
         /**
          * Display style of the status bar battery information
          * 0: Display the battery an icon in portrait mode
-         * 1: Display the battery as a circle
-         * 2: Display the battery as plain text
+         * 1: Display the battery an icon in landscape mode
+         * 2: Display the battery as a circle
+         * 3: Display the battery as plain text
          * default: 0
          * @hide
          */

@@ -404,14 +404,11 @@ public class LineageDatabaseHelper extends SQLiteOpenHelper{
 
                     long newValue = 0;
                     switch ((int) value) {
-                        case 2:
+                        case 5:
                             newValue = 1;
                             break;
-                        case 5:
-                            newValue = 0;
-                            break;
                         case 6:
-                            newValue = 2;
+                            newValue = 3;
                             break;
                     }
 
